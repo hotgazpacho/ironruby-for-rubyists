@@ -1,6 +1,6 @@
+$LOAD_PATH << File.dirname(__FILE__) + "/magic/lib"
 require 'PresentationFramework'
 require 'PresentationCore'
-require 'rubygems'
 require 'magic'
 
 include System::Windows

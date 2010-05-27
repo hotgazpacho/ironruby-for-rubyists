@@ -1,4 +1,4 @@
-require 'rubygems'
+$LOAD_PATH << File.dirname(__FILE__) + "/magic/lib"
 require 'System.Windows.Forms'
 require 'magic'
 include System::Windows::Forms

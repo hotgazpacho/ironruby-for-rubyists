@@ -1,0 +1,3 @@
+[submodule "magic/magic"]
+	path = magic/magic
+	url = http://github.com/thbar/magic.git
