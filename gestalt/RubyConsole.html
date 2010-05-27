@@ -2,13 +2,14 @@
 <head>
     <title>Gestalt - IronRuby Console</title>
     <script type="text/javascript">
-        if (!window.DLR) 
-            window.DLR = {}; 
-        DLR.settings = { console: true };  
+        window.DLR = {settings: {console: true, debug: true}}
     </script>
     <script src="/dlr/dlr.js" type="text/javascript"></script>
 </head>
 <body>
-    <div id="manipulate">Manipulate me!</div>
+    <div id="message">Loading ...</div>
+    <script type="text/ruby">
+        document.message.html = "Ruby says hello!"
+    </script>
 </body>
 </html>
