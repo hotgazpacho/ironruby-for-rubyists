@@ -1,4 +1,5 @@
 require 'PresentationFramework'
+require 'PresentationCore'
 require 'rubygems'
 require 'magic'
 
